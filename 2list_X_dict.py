@@ -3,10 +3,12 @@
 #method1
 list1=['suresh','sandy','rafiq']
 list2=[110,132,101]
-# print(dict(zip(list1,list2)))
+print(dict(zip(list1,list2)))
 
 
 #method-2
 d={}
-for i in 
+for i in range(len(list1)):
+    d[list1[i]]=list2[i]
+print(d)
 
