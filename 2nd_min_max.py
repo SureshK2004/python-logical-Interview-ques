@@ -10,6 +10,7 @@ def second(lest):
 g=second(lest)
 print(g)
 
+
 def mini_second(lest):
     unique=list(set(lest))
     if len(unique)<2:
