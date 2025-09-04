@@ -1,0 +1,4 @@
+#to add 9 in the given array and array want to bring 2 d array 
+l=[12,14,2,34,4,5,3.6]
+num=[l[i:i+2]+[9]+[2]for i in range(0,len(l),2)]
+print(num)
