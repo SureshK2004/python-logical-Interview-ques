@@ -23,3 +23,11 @@ e=[]
 for i in range(len(d)-1,-1,-1):#-1(start,stop,step)
     e.append(d[i])
 print(e)
+
+# REVERSE THE STRING WITHOUT USING [::-1]
+
+a="1,2,3,4,5"
+b=" "
+for i in range(len(a)-1,-1,-1):
+    b+=a[i]
+print(b)
